@@ -1,13 +1,14 @@
-const postcss = require('postcss');
+var postcss = require('postcss');
 
-module.exports = postcss.plugin('postcss-reset-scrollbar', () => {
-	return (css) => {
-		css.walkRules((rule) => {
-			const selector = rule.selector;
+module.exports = postcss.plugin('postcss-reset-scrollbar', function(options) {
+	options = options || {};
+
+	return function (css) {
+		css.walkRules(function (r) {
+			var selector = r.selector;
 			if (selector.indexOf('scrollbar') >= 0) {
-				rule.walkDecls((decl) => {
-					// eslint-disable-next-line
-					decl.value = '';
+				r.walkDecls(function (d) {
+					d.value = '';
 				});
 			}
 		});
