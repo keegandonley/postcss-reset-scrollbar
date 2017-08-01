@@ -4,7 +4,7 @@
   "description": "Revert scrollbars that are styled by semantic-ui or other custom stylesheets",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -14,5 +14,9 @@
   "license": "MIT",
   "dependencies": {
     "postcss": "^6.0.8"
+  },
+  "devDependencies": {
+    "chai": "^4.1.0",
+    "mocha": "^3.5.0"
   }
 }
