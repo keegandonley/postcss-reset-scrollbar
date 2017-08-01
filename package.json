@@ -1,0 +1,18 @@
+{
+  "name": "postcss-reset-scrollbar",
+  "version": "1.0.0",
+  "description": "Revert scrollbars that are styled by semantic-ui or other custom stylesheets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/keegandonley/postcss-reset-scrollbar.git"
+  },
+  "author": "Keegan Donley",
+  "license": "MIT",
+  "dependencies": {
+    "postcss": "^6.0.8"
+  }
+}
