@@ -7,9 +7,7 @@ module.exports = postcss.plugin('postcss-reset-scrollbar', function(options) {
 		css.walkRules(function (r) {
 			var selector = r.selector;
 			if (selector.indexOf('scrollbar') >= 0) {
-				r.walkDecls(function (d) {
-					d.value = '';
-				});
+				r.removeAll();
 			}
 		});
 	};
