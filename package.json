@@ -1,6 +1,6 @@
 {
   "name": "postcss-reset-scrollbar",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Revert scrollbars that are styled by semantic-ui or other custom stylesheets",
   "main": "index.js",
   "scripts": {
