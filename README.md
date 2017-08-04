@@ -2,8 +2,8 @@
 [![Build Status](https://travis-ci.org/keegandonley/postcss-reset-scrollbar.svg?branch=master)](https://travis-ci.org/keegandonley/postcss-reset-scrollbar)
 [![npm](https://img.shields.io/npm/v/postcss-reset-scrollbar.svg)](https://www.npmjs.com/package/postcss-reset-scrollbar)
 [![npm](https://img.shields.io/npm/l/postcss-reset-scrollbar.svg)](https://www.npmjs.com/package/postcss-reset-scrollbar)
-[![](https://img.shields.io/github/issues-pr/keegandonley/postcss-reset-scrollbar.svg)](https://github.com/keegandonley/postcss-reset-scrollbar)
-[![GitHub issues](https://img.shields.io/github/issues/keegandonley/postcss-reset-scrollbar.svg)](https://github.com/keegandonley/postcss-reset-scrollbar)
+[![](https://img.shields.io/github/issues-pr/keegandonley/postcss-reset-scrollbar.svg)](https://github.com/keegandonley/postcss-reset-scrollbar/pulls)
+[![GitHub issues](https://img.shields.io/github/issues/keegandonley/postcss-reset-scrollbar.svg)](https://github.com/keegandonley/postcss-reset-scrollbar/issues)
 
 [PostCSS](https://github.com/postcss/postcss) plugin to remove scrollbar style rules.
 
