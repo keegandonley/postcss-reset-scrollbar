@@ -21,3 +21,7 @@ then
 ## Usage
 
 `postcss([require('postcss-reset-scrollbar')]);`
+
+## Testing
+
+`npm test` to run mocha tests

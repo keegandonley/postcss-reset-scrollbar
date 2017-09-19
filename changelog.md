@@ -1,3 +1,7 @@
+## 1.1.3
+
+Add better, more complete test cases
+
 ## 1.1.1
 
 Update documentation
